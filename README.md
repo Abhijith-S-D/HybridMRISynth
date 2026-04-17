@@ -116,7 +116,7 @@ pip install torch torchvision nibabel nilearn requests scipy scikit-image
 ### ▶️ Google Colab (Recommended)
 
 1. Open [Google Colab](https://colab.research.google.com/)
-2. Upload `brain_tumor_pipeline_v10_Final.ipynb`
+2. Upload `brain_tumor_pipeline.ipynb`
 3. Set runtime: **Runtime → Change runtime type → GPU (T4)**
 4. Click **Runtime → Run all**
 
@@ -128,7 +128,7 @@ The notebook auto-downloads the MNI152 brain template, runs all 6 pipeline stage
 git clone https://github.com/your-username/brain-tumor-synthesis.git
 cd brain-tumor-synthesis
 pip install -r requirements.txt
-jupyter notebook brain_tumor_pipeline_v10_Final.ipynb
+jupyter notebook brain_tumor_pipeline.ipynb
 ```
 
 ---
